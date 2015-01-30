@@ -1,0 +1,18 @@
+{
+  "name": "chatik",
+  "version": "1.0.0",
+  "description": "",
+  "author": "alexander@zinchuk.com",
+  "license": "BSD",
+  "dependencies": {
+    "body-parser": "^1.10.2",
+    "express": "~4.0.0",
+    "forever": "~0.13.0",
+    "jade": "~1.9.1",
+    "lodash": "~3.0.0",
+    "multiparty": "^4.1.1",
+    "vow": "~0.4.8",
+    "vow-fs": "~0.3.4",
+    "vow-node": "~0.2.1"
+  }
+}

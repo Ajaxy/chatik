@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #333333;
+}
+
+li {
+    border: 1px solid #eeeeee;
+    padding: 15px;
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+.login {
+    color: black;
+}
+
+.login .first-letter {
+    color: red;
+}
+
+form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form h2 {
+    display: inline-block;
+    font-weight: 300;
+}
+
+input {
+    font-size: 12px;
+    padding: 5px;
+    margin: 10px;
+}
+
+input[type="text"] {
+    width: 150px;
+}
+
+input[type="file"] {
+    width: 200px;
+}
+
+a {
+    color: #6677c9;
+}
+
+a:hover, a:active {
+    color: #7b90f3;
+}
+

@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    form(action='/post' method='post' enctype='multipart/form-data')
+        h2 Файлочатик ^^
+        input(type='text' name='text' placeholder='Ссылка')
+        |  или
+        input(type='file' name='file' placeholder='Файл')
+        input(type='submit' value='   Сохранить   ')
+
+    ul
+    - each str in content
+        li!= str
