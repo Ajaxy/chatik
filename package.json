@@ -5,7 +5,6 @@
   "author": "alexander@zinchuk.com",
   "license": "BSD",
   "dependencies": {
-    "body-parser": "^1.10.2",
     "express": "~4.0.0",
     "forever": "~0.13.0",
     "jade": "~1.9.1",
